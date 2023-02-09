@@ -95,10 +95,10 @@ h2 {
 .square {
     border-radius: 10px;
     border: 5px solid #3882F6;
-    padding: 20px;
     width: 150px;
     height: 150px; 
     box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 .boxes .container {
@@ -161,4 +161,15 @@ h2 {
     font-weight: bold;
     height: 30%;
     width: 150px;
+}
+
+/* footer */
+.footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 20px;
 }
